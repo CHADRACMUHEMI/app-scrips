@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajouter au Panier</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+        form {
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>AJOUTER AU PANIER</h1>
+    <h3>Pixel</h3>
+    <p>Prix : 200$</p>
+    <form action="https://script.google.com/macros/s/AKfycbyW2fxfSC6qYU4hN1BYgw7oXRQD76VT_qtGCPkeD2b7e1QWq_ynO1BgVp6UALakF-r0sQ/exec" method="post">
+        <input type="hidden" name="nomProduit" value="Pixel">
+        <input type="hidden" name="prix" value="200">
+        <button type="submit">Ajouter au panier</button>
+    </form>
+</body>
+</html>
